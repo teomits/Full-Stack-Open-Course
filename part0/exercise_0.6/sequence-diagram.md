@@ -1,3 +1,6 @@
+# Page Load Diagram for /new_note_spa
+
+```mermaid
 sequenceDiagram
     participant browser
     participant server
@@ -10,3 +13,4 @@ sequenceDiagram
     deactivate server
 
     Note right of browser: The browser updates the UI dynamically using JavaScript
+```
